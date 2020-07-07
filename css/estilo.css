@@ -1,0 +1,148 @@
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  .pricing .card-header {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+  }
+
+  .pricing .card-body {
+    padding: 0;
+  }
+
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+
+  .pricing .card-price {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0a67af;
+    color: #fff;
+    font-size: 3rem;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .pricing .card.recomendado .card-price {
+
+    background-color: #e95d0e;
+
+  }
+
+  .pricing .card-price .price {
+    font-size: 39px;
+    font-weight: bold;
+  }
+
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+
+  .pricing .card-price .assinar .btn-signed {
+    color: #5f686f;
+    font-size: 14px;
+    background: #fff;
+    padding: 11px 32px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+
+  .pricing .card-price .assinar .btn-signed:hover {
+    color: #fff;
+    background: #e95d0e;
+    text-decoration: none;
+  }
+
+  .pricing  .card.recomendado .card-price .assinar .btn-signed {
+    color: #e95d0e;
+  
+  }
+
+  .pricing  .card.recomendado .card-price .assinar .btn-signed:hover {
+    color: #fff;
+    background-color: rgba(0,0,0,0.1);
+  }
+
+  .pricing ul {
+    margin: 30px 0 0 0;
+
+  }
+
+
+  .pricing ul li {
+    padding: 9px 0px;
+    color: #2a363f;
+    border-bottom: 1px solid #f3f3f3;
+    list-style: none;
+    font-size: 14px;
+    text-align: center;
+
+  }
+
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+
+  img.best-seller {
+    display: block;
+    position: absolute;
+    top: -22px;
+    margin-left: -67px;
+    left: 50%;
+  }
+
+ 
+
+  /* Hover Effects on Card */
+
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.65rem;
+      margin-bottom: .65rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+
+   
+  }
+
+  .bg-dark1{
+      background-color: #000;
+  }
+
+
+
+  header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(12, 23, 33, 0.8) 0%, rgba(23, 27, 35, 0.8) 100%), url(../assets/img/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  #loading {
+    background: url('../assets/img/loading3.gif') no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
+
