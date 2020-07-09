@@ -146,3 +146,43 @@
     z-index: 9999999;
 }
 
+.logo {
+  background-image: url('../assets/img/telemid1c.png');
+  min-width: 172px;
+  min-height: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media (min-width: 992px){
+  .logo {
+    background-image: url('../assets/img/logo1.png');
+    
+  }
+
+  #mainNav.navbar-scrolled .navbar-brand .logo {
+    background-image: url('../assets/img/telemid1c.png');
+  }
+ 
+}
+
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
