@@ -39,9 +39,14 @@ $(".sendPlanoBackend").click(function(event){
                 $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                     .append("</button>");
                 var list='<ul>';
+                if(Array.isArray(resposta.responseJSON)){
                   resposta.responseJSON.forEach(function(msg){
                     list+="<li>"+msg+"</li>";
                   });
+                }
+                else{
+                  list+="<li>Erro Inesperado no Servidor</li>";
+                }
                 list+="</ul>";
                 $('#success > .alert-danger').append(list);
                 $('#success > .alert-danger').append('</div>');
