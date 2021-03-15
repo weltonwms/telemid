@@ -173,6 +173,59 @@
 }
 
 
+/*CSS WX_WHATSAPP */
+
+#bloco_wx_whatsApp {
+  position: fixed;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+
+  box-sizing: border-box;
+
+}
+
+#bloco_wx_whatsApp .wx_whatsApp_container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+}
+
+#bloco_wx_whatsApp .wx_whatsApp_container .wx_linkWhats {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  height: 40px;
+  white-space: nowrap;
+  padding: 12px 24px;
+  /*
+  cores legais:
+  #193c4e;
+  #075E54;
+  #19364d;
+  */
+  background-color: #19364d;
+
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+
+}
+
+#bloco_wx_whatsApp .iconWhatsApp{
+  font-size: 2em;
+  color: #25D366;
+}
+
+/*FIM CSS WX_WHATSAPP */
+
+
 
 
 

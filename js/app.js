@@ -66,4 +66,21 @@ $(".sendPlanoBackend").click(function(event){
 $('#modalPlano').on('hidden.bs.modal', function (e) {
   $('#formPlano').trigger("reset");
   $('#success').html('');
-})
+});
+
+
+function startWxWhatsApp()
+{
+  var mobiledevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  var baseWhats = "https://web.whatsapp.com/send?phone=";
+  var phone = "5561984366335";
+  if (mobiledevice) {
+    baseWhats = "https://wa.me/";
+
+  }
+
+  $(".wx_linkWhats").attr('href', baseWhats + phone);
+
+}
+
+startWxWhatsApp();
